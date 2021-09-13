@@ -2642,6 +2642,8 @@ export const TRIANGULATION = [
     255,
   ];
 
+
+  
 //draw triangle
 const drrawPath = (ctx, points, closePath) => {
     const region = new Path2D();
@@ -2672,7 +2674,7 @@ export const drawMesh = (predictions, ctx)=>{
                 TRIANGULATION[i*3+1],
                 TRIANGULATION[i*3+2],
             ].map((index)=> keypoints[index]);
-            drrawPath(ctx, points,true);
+            drrawPath(ctx, points,true );
             }
 
             //Draw points

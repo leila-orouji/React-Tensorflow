@@ -12,12 +12,12 @@ import { drawMesh } from './utilities';
 //3- setup wecam and convas
 //4- define references to those
 //5- load facemesh
-// detect function
-// drawing utilities
-// load triangulation
-// setup triangule path
-// setup point drawing
-// add draw mesh to detect function
+//6- detect function
+//7- drawing utilities
+//8- load triangulation
+//9- setup triangule path
+//10- setup point drawing
+//11- add draw mesh to detect function
 
 
 function App() {
@@ -66,7 +66,11 @@ function App() {
     }
   }
 
+
+
   runFacemesh()
+
+
   return (
     <div className="App">
       <header className="App-header">
@@ -104,5 +108,7 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;
